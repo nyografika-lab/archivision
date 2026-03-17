@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <meta name="description" content="Personal Portfolio Website">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">archivision</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>rumah <span class="name">impian</span></h1>
+                <p class="subtitle">Full Stack Developer & Designer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>"Dengan pengalaman dalam merancang berbagai tipologi bangunan, saya mengintegrasikan detail arsitektur yang kuat dengan perencanaan ruang yang cerdas. Dari sketsa konsep awal hingga visualisasi akhir, fokus utama archivision adalah memastikan setiap proyek memiliki standar kualitas teknis yang mumpuni tanpa mengabaikan nilai estetika yang tinggi. Saya percaya bahwa desain yang hebat lahir dari ketelitian dalam setiap inci ruang."</p>
+                        <p>skethcup,auotocad,solidworks,fusion360</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>2d</h3>
+                        <ul>
+                            <li>autocad</li>
+                            <li>denah</li>
+                            <li>potongan</li>
+                            <li>detail</li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>3d</h3>
+                        <ul>
+                            <li>sketchup</li>
+                            <li>solidworks</li>
+                            <li>fusion 360</li>
+                        </ul>
+                    </div>
+                    <div class="skill-item">
+                        <h3>lainya</h3>
+                        <ul>
+                            <li>pembuatan poster</li>
+                            <li>struktur baja ringan</li>
+                            <li>fotografi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>E-commerce website built with React and Node.js.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>Mobile app UI design with Figma prototypes.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://images.unsplash.com/photo-1516321310764-9f3c9615b1f9?w=400&h=250&fit=crop" alt="Project 3">
+                        <h3>Project Three</h3>
+                        <p>Portfolio website with modern animations.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Ready to start your next project?</p>
+                        <div class="contact-links">
+                            <a href="mailto:you@example.com">visionarchi217@gmail.com</a>
+                            <a href="tel:+123456789">+1 234 567 89</a>
+                            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+                            <a href="https://github.com/yourusername">GitHub</a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
